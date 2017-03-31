@@ -18,6 +18,7 @@ class SliderPage extends Component {
                 leftImage={s1} rightImage={s2} leftText="I don't have a system at all..." rightText="I have a perfect system!"/>
             <Slider questionText="How motivated are you to recycle?" 
                 leftImage={m1} rightImage={m2} leftText="I don't care at all..." rightText="I care a whole lot!"/>
+            <button type="submit" className="button-right">Next</button>
         </div>
     );
   }
