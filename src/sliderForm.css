@@ -1,0 +1,15 @@
+.sliderForm {
+  padding: 10px 32px; }
+
+.button-right {
+    float: right;
+    display: inline;
+    text-align: right; }
+
+button {
+  border: none;
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 16px; }
