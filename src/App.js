@@ -9,11 +9,11 @@ import s2 from './img/emoji/s2.png';
 import m1 from './img/emoji/m1.png';
 import m2 from './img/emoji/m2.png';
 var sliders = [
-    { questionText: "How much do you know about what can be recycled in Austin?", min: 0, max: 10,
+    { name: "knowledge", questionText: "How much do you know about what can be recycled in Austin?", min: 0, max: 10,
       leftImage: k1, rightImage: k2, leftText: "I don't know anything...", rightText: "I know everything!"},
-    { questionText: "Do you have a system for recycling at home?", min: 0, max: 10,
+    { name: "system", questionText: "Do you have a system for recycling at home?", min: 0, max: 10,
       leftImage: s1, rightImage: s2, leftText: "I don't have a system at all...", rightText: "I have a perfect system!"},
-    { questionText: "How motivated are you to recycle?", min: 0, max: 10,
+    { name: "motivation", questionText: "How motivated are you to recycle?", min: 0, max: 10,
       leftImage: m1, rightImage: m2, leftText: "I don't care at all...", rightText: "I care a whole lot!"}
 ];
 
